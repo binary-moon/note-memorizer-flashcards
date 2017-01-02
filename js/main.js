@@ -1,7 +1,7 @@
 var flashcards = (function() {
 
     var notes = ['A', 'A#', 'Bb', 'B', 'C', 'C#', 'Db', 'D', 'D#', 'Eb', 'E', 'F', 'F#', 'Gb', 'G', 'G#', 'Ab'];
-    var strings = ['E6', 'A', 'D', 'G', 'B', 'E1'];
+    var strings = ['E', 'A', 'D', 'G', 'B'];
 
     var $app = $('#app');
     var $newButton = $app.find('.btn-new');
