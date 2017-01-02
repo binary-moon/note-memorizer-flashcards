@@ -11,6 +11,8 @@ var flashcards = (function() {
     var publicApi = {
         init: function() {
             flashcards.handleEvents();
+            flashcards.findRandomString();
+            flashcards.findRandomNote();
         },
         handleEvents: function() {
             $newButton.on('click', function() {
